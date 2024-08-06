@@ -1,0 +1,68 @@
+
+@media screen and (max-width:576px) {
+    .hamburger-menu{
+        display: block;
+    }
+
+    .nav-item{
+       display: none;
+    }
+    .nav-container{
+        flex-direction: row;
+        
+       
+    }
+
+    .banner{
+        flex-direction: column;
+        margin-top: 50px;
+        text-align: center;
+      
+    
+     }
+
+     .banner-title{
+        
+        text-align: center;
+        
+     }
+
+     .banner-content{
+        width:100%;
+        border: 2px solid green;
+        padding: 30px;
+     
+} 
+
+.banner-img-container {
+    width: 100%;
+    margin-left: 30px;
+ }
+
+ .btn-contain-two{
+    right: 20%;  
+    bottom: 70%;
+  
+}
+
+.btn-contain-one{
+   left: 20%;
+    bottom: 40%;
+  }
+
+  .habbit-img-container{
+    margin-top: 50px;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+  }
+
+  .habbit-img{
+    width:100%;
+    border-radius: 50%;
+   
+  
+  }
+
+}   
+
