@@ -32,7 +32,7 @@ nav ,.banner  {
     margin: 0 auto ;
     color: beige;
     padding: 20px;
-    border: 2px  solid green;
+   
 
 }
 
@@ -80,7 +80,6 @@ nav  li{
 
  .banner-content{
     width:60%;
-    border: 2px solid green;
     padding: 30px;
    
   
@@ -94,7 +93,6 @@ nav  li{
 
  .banner-img-container{
     width: 40%;
-    border: 2px solid green;
     margin-left: 130px;
     position: relative;
     margin-right: 30px;
@@ -186,16 +184,14 @@ margin-top: 30px;
  /* banner  style end */
  #main-section{
    background: rgb(0, 0, 0);
-   border: 2px solid green;
  }
- .habbit-section,.run-mile-section{
+ .habbit-section,.run-mile-section,.team-section,.footer-container,.footer-last-part{
    max-width: 1050px;
    margin: 0 auto ;
-   border: 2px solid  green;
  }
  
  
- .habbit-title{
+ .habbit-title,.team-title{
    color: rgb(255, 255, 255);
    font-size: 2rem;
    font-weight: 900;
@@ -205,14 +201,14 @@ margin-top: 30px;
    margin-top: 50px;
  }
 
- .habbit-description{
+ .habbit-description,.team-description{
    color: rgba(255, 255, 255, 0.5);
    font-size: 10px;
    font-weight: 400;
    line-height: 20px;
    letter-spacing: 0.3px;
    text-align: center;
-   margin-top: 20px;
+   margin-top: 10px;
 
  }
 
@@ -220,9 +216,7 @@ margin-top: 30px;
    margin-top: 50px;
    display: flex;
   justify-content: space-evenly;
-   
    max-width: 100%;
-   border: 2px solid green;
   
  }
 
@@ -248,7 +242,7 @@ text-align: center;
  /* run-section-start */
  .run-mile-content{
    max-width: 360px;
-   border: 2px solid green;
+  
   
  }
 
@@ -257,7 +251,7 @@ text-align: center;
    margin-top:30px ;
    border-radius: 5px;
    display: flex;
-  justify-content: space-evenly;
+  justify-content: space-around;
    
  }
 
@@ -284,4 +278,88 @@ margin-top: 10px;
    margin-top: 20px;
   
  }
+
+ /* team -style-start */
+
+ .team-container{
+  margin-top: 30px;
+ }
+ .team-img{
+  border-radius: 15px;
+  max-width: 320px;
+  height: 320px;
+
+ }
+ .team{
+  position: relative;
+ }
+ .team-img-content{
+  position: absolute;
+  bottom: 20px;
+  
+ }
+  .teams-img-container{
+    margin-top: 20px;
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    background-color: rgb(20, 19, 19);
+    row-gap: 10px;
+    column-gap: 10px;
+  
+     
+  }
+ .team-name{
+  color: rgb(255, 255, 255);
+  font-size: 18px;
+  font-weight: 600;
+ }
+ .team-profession{
+  color: black;
+ }
+
+ /* footer  style */
+.footer-section{
+  background-color: rgb(37, 34, 34); 
+}
+.footer-container{
+  display: grid;
+  grid-template-columns:repeat(3,1fr) ;
+  padding: 30px;
+}
+
+.footer-title{
+ color: #E6533C;
+ font-size: 2rem;
+ font-family: 800;
+ font-style: italic;
+}
+
+.footer-description{
+  color: rgba(255, 255, 255, 0.5);
+font-family: Inter;
+font-size: 14px;
+font-weight: 400;
+line-height: 20px;
+letter-spacing: 0.3px;
+margin-top: 15px;
+
+}
+.get-started{
+color: #FFFFFF;
+}
+
+.footer-info{
+  color:rgba(255, 255, 255, 0.329);
+  margin-top: 15px; 
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+
+}
+
+.right-reserved {
+  color: #FFFFFF;
+  margin-top: 15px;
+  text-align: center;
+}
 
