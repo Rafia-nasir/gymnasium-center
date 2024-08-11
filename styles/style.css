@@ -189,6 +189,9 @@ margin-top: 30px;
    max-width: 1050px;
    margin: 0 auto ;
  }
+ .habbit-container{
+  padding: 50px;
+ }
  
  
  .habbit-title,.team-title{
@@ -198,7 +201,8 @@ margin-top: 30px;
    line-height: 120%;
    letter-spacing: 0%;
    text-align: center;
-   margin-top: 50px;
+   
+  
  }
 
  .habbit-description,.team-description{
@@ -295,7 +299,7 @@ margin-top: 10px;
  }
  .team-img-content{
   position: absolute;
-  bottom: 20px;
+  bottom: 25px;
   
  }
   .teams-img-container{
@@ -305,6 +309,7 @@ margin-top: 10px;
     background-color: rgb(20, 19, 19);
     row-gap: 10px;
     column-gap: 10px;
+ 
   
      
   }
@@ -318,13 +323,15 @@ margin-top: 10px;
  }
 
  /* footer  style */
+
 .footer-section{
   background-color: rgb(37, 34, 34); 
+ 
 }
 .footer-container{
   display: grid;
   grid-template-columns:repeat(3,1fr) ;
-  padding: 30px;
+ padding: 30px;
 }
 
 .footer-title{
@@ -357,6 +364,10 @@ color: #FFFFFF;
 
 }
 
+
+.footer-last-part{
+ 
+}
 .right-reserved {
   color: #FFFFFF;
   margin-top: 15px;

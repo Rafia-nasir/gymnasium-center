@@ -89,6 +89,15 @@ margin-left: 50px;
     
  }
 
+ .team{
+  position: relative;
+ }
+ .team-img-content{
+  position: absolute;
+  bottom: 25px;
+  left: 200px;
+  
+ }
  
  .team-img{
   max-width: 250px;
